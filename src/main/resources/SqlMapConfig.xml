@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 批量配置别名 -->
+	<typeAliases>
+		<!--		配置实体类包路径 -->
+		<package name="com.julian.domain" />
+	</typeAliases>
+
+<!--	引入外部配置文件-->
+<!--	<properties resource="db.properties"></properties>-->
+
+<!--	配置环境-->
+<!--	<environments default="mysql">-->
+<!--		<environment id="mysql">-->
+<!--			<transactionManager type="JDBC"></transactionManager>-->
+<!--			<dataSource type="POOLED">-->
+<!--&lt;!&ndash;				<property name="driver" value="${jdbc.driver}"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;				<property name="url" value="${jdbc.url}"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;				<property name=username" value="${jdbc.username}"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;				<property name="password" value="${jdbc.password}"></property>&ndash;&gt;-->
+<!--				<property name="driver" value="com.mysql.jdbc.Driver"></property>-->
+<!--				<property name="url" value="jdbc:mysql://localhost:3306/dormitory"></property>-->
+<!--				<property name="username" value="root"></property>-->
+<!--				<property name="password" value="root"></property>-->
+<!--			</dataSource>-->
+<!--		</environment>-->
+<!--	</environments>-->
+<!--&lt;!&ndash;	指定带有注解的dao接口的包 所在位置&ndash;&gt;-->
+<!--	<mappers>-->
+<!--&lt;!&ndash;		配置dao和映射文件的包路径 &ndash;&gt;-->
+<!--		<package name="com.julian.dao"/>-->
+<!--	</mappers>-->
+
+</configuration>
